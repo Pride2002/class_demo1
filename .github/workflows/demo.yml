@@ -3,9 +3,9 @@ name: Hello world workflow
 
 #  events that trigger this workflow
 on:
-  # triggers on puush to a branch
+  # triggers on push to a branch
   push:
-    branches: [dev,staging]
+    branches: [main]
 
   # allows manual triggering from the actions tab
   workflow_dispatch:
