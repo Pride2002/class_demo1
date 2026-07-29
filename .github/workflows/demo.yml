@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 # jobs to run
-jobs
+jobs:
   # job_id or name
   greet:
     # the type of runner to use
